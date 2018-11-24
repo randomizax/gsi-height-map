@@ -2,15 +2,19 @@
 // @id             iitc-plugin-gsi-relief@jonatkins
 // @name           IITC plugin: GSI height map tiles as a layer
 // @category       Layer
-// @version        0.1.4.@@DATETIMEVERSION@@
+// @version        1.0.0.@@DATETIMEVERSION@@
 // @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
 // @updateURL      @@UPDATEURL@@
 // @downloadURL    @@DOWNLOADURL@@
 // @description    [@@BUILDNAME@@-@@BUILDDATE@@] Add GSI height map tiles as an optional layer.
 // @include        https://www.ingress.com/intel*
 // @include        http://www.ingress.com/intel*
+// @include        https://intel.ingress.com/intel*
+// @include        http://intel.ingress.com/intel*
 // @match          https://www.ingress.com/intel*
 // @match          http://www.ingress.com/intel*
+// @match          https://intel.ingress.com/intel*
+// @match          http://intel.ingress.com/intel*
 // @grant          none
 // ==/UserScript==
 
