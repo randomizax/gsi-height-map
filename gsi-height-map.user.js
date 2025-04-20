@@ -2,15 +2,13 @@
 // @id             iitc-plugin-gsi-relief@jonatkins
 // @name           IITC plugin: GSI height map tiles as a layer
 // @category       Layer
-// @version        1.0.1.20190314.160025
-// @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
+// @version        2.0.0.20250420.52310
+// @namespace      https://github.com/IITC-CE/ingress-intel-total-conversion
 // @updateURL      https://randomizax.github.io/gsi-height-map/gsi-height-map.meta.js
 // @downloadURL    https://randomizax.github.io/gsi-height-map/gsi-height-map.user.js
-// @description    [randomizax-2019-03-14-160025] Add GSI height map tiles as an optional layer.
-// @include        https://*.ingress.com/intel*
-// @include        http://*.ingress.com/intel*
-// @match          https://*.ingress.com/intel*
-// @match          http://*.ingress.com/intel*
+// @description    [randomizax-2025-04-20-052310] Add GSI height map tiles as an optional layer.
+// @include        https://intel.ingress.com/*
+// @match          https://intel.ingress.com/*
 // @grant          none
 // ==/UserScript==
 
@@ -22,7 +20,7 @@ if(typeof window.plugin !== 'function') window.plugin = function() {};
 //PLUGIN AUTHORS: writing a plugin outside of the IITC build environment? if so, delete these lines!!
 //(leaving them in place might break the 'About IITC' page or break update checks)
 // plugin_info.buildName = 'randomizax';
-// plugin_info.dateTimeVersion = '20190314.160025';
+// plugin_info.dateTimeVersion = '20250420.52310';
 // plugin_info.pluginId = 'gsi-height-map';
 //END PLUGIN AUTHORS NOTE
 
